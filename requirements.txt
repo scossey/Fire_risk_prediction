@@ -1,0 +1,12 @@
+# numpy pinned below 2.0 for torch 2.2.x compatibility on Python 3.12 / Intel Mac.
+# Upgrade torch to >= 2.4 first if you want to use numpy 2.x.
+numpy<2.0
+torch==2.2.2
+matplotlib>=3.9
+scikit-learn>=1.6
+earthengine-api>=1.5
+pyproj>=3.6          # UTM coordinate transforms in gee_utils.fetch_patch
+folium>=0.19         # interactive study area map in notebook
+jupyterlab>=4.0
+ipywidgets>=8.0      # required for folium map rendering in notebook
+python-dotenv>=1.0   # loads EE_PROJECT_ID from .env
