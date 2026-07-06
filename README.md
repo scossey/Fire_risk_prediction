@@ -24,8 +24,8 @@ End-to-end pipeline for pixel-level wildfire risk prediction using spatio-tempor
 **Requirements:** Python 3.10+, a [Google Earth Engine](https://earthengine.google.com/) account, and a GEE project ID.
 
 ```bash
-git clone https://github.com/username/fire-risk-pt
-cd fire-risk-pt
+git clone https://github.com/scossey/Fire_risk_prediction
+cd Fire_risk_predictioin
 python -m venv .venv
 source .venv/bin/activate
 pip install -e .
