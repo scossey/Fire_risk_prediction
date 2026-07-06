@@ -25,7 +25,7 @@ End-to-end pipeline for pixel-level wildfire risk prediction using spatio-tempor
 
 ```bash
 git clone https://github.com/scossey/Fire_risk_prediction
-cd Fire_risk_predictioin
+cd Fire_risk_prediction
 python -m venv .venv
 source .venv/bin/activate
 pip install -e .
